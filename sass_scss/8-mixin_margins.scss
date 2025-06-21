@@ -1,6 +1,6 @@
 @mixin margin-x($pixel) {
-    margin-left: $left;
-    margin-right: $right;
+    margin-left: $pixel;
+    margin-right: $pixel;
 }
 
 body {
