@@ -1,0 +1,7 @@
+@use 'names' as n;
+
+@each $name in n.$list-names {
+    .photo-#{$name} {
+        background: image-url("photos/#{$name}.jpg") no-repeat;
+    }
+}
